@@ -8,7 +8,7 @@
 
 ## Installation
 
-`npm install --save express-ws`
+`npm install --save @mintplex-labs/express-ws`
 
 ## Usage
 
@@ -17,7 +17,7 @@ __Full documentation can be found in the API section below. This section only sh
 Add this line to your Express application:
 
 ```javascript
-var expressWs = require('express-ws')(app);
+var expressWs = require('@mintplex-labs/express-ws')(app);
 ```
 
 __Important: Make sure to set up the `express-ws` module like above *before* loading or defining your routers!__ Otherwise, `express-ws` won't get a chance to set up support for Express routers, and you might run into an error along the lines of `router.ws is not a function`.
@@ -51,7 +51,7 @@ app.use("/ws-stuff", router);
 ```javascript
 var express = require('express');
 var app = express();
-var expressWs = require('express-ws')(app);
+var expressWs = require('@mintplex-labs/express-ws')(app);
 
 app.use(function (req, res, next) {
   console.log('middleware');
