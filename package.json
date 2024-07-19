@@ -1,6 +1,6 @@
 {
   "name": "@mintplex-labs/express-ws",
-  "version": "5.0.5",
+  "version": "5.0.6",
   "description": "WebSocket endpoints for Express applications",
   "main": "dist/index.js",
   "scripts": {
