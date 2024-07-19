@@ -1,4 +1,5 @@
 node_modules/
 *.sw[po]
-package-lock.json
 lib
+dist
+*.log

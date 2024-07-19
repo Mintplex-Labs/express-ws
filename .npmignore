@@ -1,5 +1,4 @@
-src/
-node_modules
-.editorconfig
-.eslintrc
-*.lock
+node_modules/
+build.mjs
+.*
+*.log
