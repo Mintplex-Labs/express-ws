@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> This is a fork of the existing `express-ws` npm package - which is what you probably want to use.
+> Original: https://github.com/henningm/express-ws
+
 # express-ws [![Dependency Status](https://snyk.io/test/github/henningm/express-ws/badge.svg)](https://snyk.io/test/github/henningm/express-ws)
 
 [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) endpoints for [Express](http://expressjs.com/) applications. Lets you define WebSocket endpoints like any other type of route, and applies regular Express middleware. The WebSocket support is implemented with the help of the [ws](https://github.com/websockets/ws) library.
