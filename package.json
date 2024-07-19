@@ -7,8 +7,9 @@
   "scripts": {
     "lint": "eslint src/"
   },
-  "author": "Henning Morud <henning@morud.org>",
+  "author": "Timothy Carambat <tim@mintplexlabs.com>",
   "contributors": [
+    "Henning Morud <henning@morud.org>",
     "Jesús Leganés Combarro <piranna@gmail.com>",
     "Sven Slootweg <admin@cryto.net>",
     "Andrew Phillips <theasp@gmail.com>",
