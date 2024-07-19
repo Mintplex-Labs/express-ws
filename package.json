@@ -1,6 +1,6 @@
 {
   "name": "@mintplex-labs/express-ws",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "description": "WebSocket endpoints for Express applications",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   ],
   "license": "BSD-2-Clause",
   "dependencies": {
+    "esm": "^3.0.84",
     "ws": "^7.4.6"
   },
   "peerDependencies": {
